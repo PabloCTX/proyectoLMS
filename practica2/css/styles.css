@@ -1,0 +1,41 @@
+/**Todo el documento**/
+*{
+	font-family:Candara; 
+}
+
+/**footer**/
+footer{
+	font-family: Courier New;
+	background-color: #00570A ;
+	color:#FFFFFF;
+}
+
+/**Titulos**/
+header{
+	font-family: Courier New;
+	background-color: #00570A ;
+	color:#FFFFFF;
+	text-align: center;
+}
+
+h2{
+	font-family: Courier New;
+}
+
+
+
+/**Contenedor**/
+main{
+	background-color: #DFFFDD ; 
+	margin:5%;
+
+}
+
+p{
+	border:1px solid;
+}
+img{
+	display: block;
+margin-left: auto;
+margin-right: auto;
+}

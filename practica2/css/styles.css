@@ -8,15 +8,34 @@ footer{
 	font-family: Courier New;
 	background-color: #00570A ;
 	color:#FFFFFF;
+	margin:20px; 
+
 }
+
+#pie{
+	margin:10px;
+	border: solid 1px;
+	width: 200px;
+	height: 100px;
+
+}
+.pief{
+	margin:10px;
+	width: 150px;
+	height: 100px;
+	float: right;
+
+	}
 
 /**Titulos**/
 header{
 	font-family: Courier New;
-	background-color: #00570A ;
+	background-color: #003D00 ;
 	color:#FFFFFF;
 	text-align: center;
 	margin:2%;
+	font-size: 22px;
+
 }
 .cabesa{
 	height: 110px;
@@ -28,22 +47,43 @@ h2{
 .titulos{
 	text-align: center;
 }
-/**Menu**/
-nav{
-	width: 100%;
-	display: inline-block;
-	float: left;
-	font-size: 25px;
-	border: groove 1px;
-	text-align: center;
-	padding-bottom: 20px;
-	background-color: #FFFFFF;
-
+/**Menu*/
+nav a{
+    text-decoration:none;
+    color:inherit;
+    font-size:20px;
 }
-li{
-	float:left;
-	list-style: none;
-	margin-right: 50px;
+
+nav{
+  	width:100%;
+	background-color: #000000;
+}          
+
+nav li{
+    display:inline-block;
+  	width:220px;
+    height:30px;
+    padding:10px;
+    background-color:#000000;
+    text-align:center;
+    color:#ffffff;
+    position:relative;
+    margin-left: 15px;
+}
+            
+nav li:hover{
+    background-color:#fff;
+    color:#000;
+}
+            
+nav li>ul{
+    display:none;
+}
+
+nav li:hover>ul{
+    display:block;
+    position:absolute;
+
 }
 /*
 nav{
@@ -64,33 +104,39 @@ li{
 	padding: 5px;
 }
 */
-a:link{
-  	color:#C52121;
-}
-a:visited{
-  	color:#C52192;
-}
-a:hover {
-	background-color: #dddddd;
-  	color:#000000;
-
-}
 
 /**Contenedor**/
 main{
-	background-color: #EEEEEE ; 
-	margin-right:5%;
-	margin-left: 5%;
+	background-color: #C7FFC7 ; 
+	margin-right:10%;
+	margin-left: 10%;
 
 }
-
-#primera{
-	padding-top:100px; 
-}
-
 p{
-	padding: 2.5%;
+	padding: 2%;
+	font-size: 20px;
+
 }
+a:hover{
+	color: #000000;
+}
+#enlace{
+	font-size: 3em;
+	margin-left: 30%;
+}
+.arriba{
+	width: 150px;
+	height: 150px;
+	margin-left: 40%;
+}
+#lista{
+	font-size: 20px;
+	margin: 40px;
+}
+
+/*FOTOS*/
+
+
 #logo{
 	float: left;
 	width: 100px;
@@ -122,15 +168,20 @@ p{
 
 }
 
-
+#legal{
+	display: block;
+	margin-left:auto;
+	margin-right: auto;
+	margin-bottom: 10%;
+}
 
 /**PAGINA RECETAS**/
 .ft_rec{
-	width: 300px;
-	height: 250px;
+	width: 200px;
+	height: 150px;
 	margin-left: 20px;
 }
-#logA{
+.logA{
 	margin-top: 5px;
 	float: left;
 	width: 100px;
@@ -143,4 +194,18 @@ p{
 }
 #sec_rec{
 	margin-top: 10px;
+}
+/*RECETAS*/
+.Faceite{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+
+}
+
+/*FORMULARIO*/
+#formulario{
+	float: left;
+	margin-right: 10px;
+	font-size:20px;
 }

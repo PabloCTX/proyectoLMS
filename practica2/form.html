@@ -9,7 +9,7 @@
 
 	<body>
 		<header class="cabesa">
-			<a href="index.html"><img src="img/logo.jpg" alt="logo atras" id="logA" /></a>
+			<a href="index.html"><img src="img/logo.jpg" alt="logo atras" class="logA" /></a>
 			<h1>CANNACOME</h1>
 		</header>
 
@@ -17,39 +17,39 @@
 			<div id="formulario">
 				<form>
 					<fieldset><strong>CONTACTE CON NOSOTROS</strong></fieldset>
-					<label for="asunto">Asunto</label><br>
-					<select required name="asunto" >
-					    <option value="0">Atencón al cliente</option>
-					    <option value="1">Consumidor</option>
-					    <option value="2">Informacion</option>
+					<label for="asunto" id="asunto">Asunto</label><br>
+					<select name="asunto" >
+					    <option value="valor0">Atencón al cliente</option>
+					    <option value="valor1">Consumidor</option>
+					    <option value="valor2" selected>Informacion</option>
 				    </select><br>
 				    <label for="nombre">Nombre</label><br>
 				    <input type="text" id="nombre" name="nombre" size="30" maxlength="20" placeholder="Juan"/><br>
 				    <label for="correo">Correo electrónico</label><br>
-				    <input type="text" id="nombre" name="nombre" size="60" maxlength="20" placeholder="juanpitufo@ejemplo.com" /><br>
+				    <input type="text" id="correo" name="correo" size="60" maxlength="20" placeholder="juanpitufo@ejemplo.com" /><br>
 				    <label for="adjunto">Archivo adjunto(opcional)</label><br>
 				    <input type="file" id="adjunto" name="adjunto" /><br>
 				    <label for="mensaje">Mensaje</label><br>
 				    <textarea id="mensaje" name="mensaje" cols="50" rows="5" placeholder="¿Cómo podemos ayudarte?"></textarea><br>
-				    <input type="checkbox" name="consentimiento4" >Consiento que mis datos sean tratados como se explica a la derecha o a continuación</input><br>
+				    <label><input type="checkbox" id="box" value="consentimiento">Consiento que mis datos sean tratados como se explica a la derecha o a continuación</label><br>
 				    <input type="reset" name="reset"/>
-				    <button name="enviar">Enviar</button>
+				    <button type="submit" name="enviar">Enviar</button>
 				</form>
 			</div>
 			<div>
 				<h3>Informacion sobre nosotros</h3>
-				<p>Dirrección: Carrer Caolí, travesia nave 12, 12530 Burriana </p>
-				<p>Atención al Cliente: +34 722 76 40 61
-				Correo: info@tuotroestanco.com</p>
-				<p>Tratamiento de datos
-				Responsable del tratamiento de datos: TU OTRO ESTANCO SL - CIF B12905048 - TU OTRO ESTANCO SL
-				Representante del tratamiento de datos: Salvador Taura Sanchez
-				Datos de Contacto del representante del tratamiento de datos: info@tuotroestanco.com o +34722764061</p>
-				<p>Finalidad: los datos se usan exclusivamente para la venta online y remitir periódicamente ofertas o promociones a través de correo electrónico o SMS</p>
-				<p>Base jurídica: la venta online.</p>
-				<p>Destinatario: la agencia de transporte.</p>
-				<p>Derechos: El interesado tiene derecho a Acceso, rectificación o supresión, oposición, limitación al tratamiento, portabilidad de los datos, así como a retirar el consentimiento en cualquier momento a través de "mi cuenta" o contactando en info@tuotroestanco.com o +34 722 764 061</p>
-				<p>Procedencia: no se obtienen datos que no nos indique el usuario directamente a excepción de los pedidos realizados a través de ebay, cdiscount o solostocks.</p>
+				<span>Dirrección: Calle sin nombre 123 </span><br>
+				<span>Atención al Cliente: +34 640 340 486</span><br>
+				<span>Correo: info@cannabis.com</span><br>
+				<span>Tratamiento de datos
+				Responsable del tratamiento de datos: CANNAINFO SL - CIF B12905048 - TU OTRO ESTANCO SL
+				Representante del tratamiento de datos:Juan Melero</span><br>
+				<span>Datos de Contacto del representante del tratamiento de datos: info@cannabis.com o +34722764061</span><br>
+				<span>Finalidad: los datos se usan exclusivamente para la venta online y remitir periódicamente ofertas o promociones a través de correo electrónico o SMS</span><br>
+				<span>Base jurídica: la venta online.</span><br>
+				<span>Destinatario: la agencia de transporte.</span><br>
+				<span>Derechos: El interesado tiene derecho a Acceso, rectificación o supresión, oposición, limitación al tratamiento, portabilidad de los datos, así como a retirar el consentimiento en cualquier momento a través de "mi cuenta" o contactando en info@cannabis.com o +34 722 764 061</span><br>
+				<span>Procedencia: no se obtienen datos que no nos indique el usuario directamente a excepción de los pedidos realizados a través de ebay, cdiscount o solostocks.</span><br>
 			</div>
 		</main>
 
